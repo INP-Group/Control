@@ -7,7 +7,7 @@ import asyncio
 import asyncio.streams
 
 
-class MyServer:
+class MyServer(object):
     """
     This is just an example of how a TCP server might be potentially
     structured.  This class has basically 3 methods: start the server,
